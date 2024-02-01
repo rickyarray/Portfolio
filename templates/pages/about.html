@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %} About Me {% endblock title %}
+{% load static %}
+
+{% block content %}
+<section class="about-section center">
+    <div class="about-img-container center">
+        <img src="{% static './img/logo.png' %}" alt="logo">
+    </div>
+    <div class="about-info-container center-column">
+        <h1>My role as dev</h1>
+        <h2>Ricky Array</h2>
+        <p>Welcome to my portfolio. I am Ricky Array, a dedicated full-stack developer, a proud father, and a USMC veteran. My journey through life has been shaped by a deep appreciation for design, creativity, and the pursuit of knowledge. As an avid reader and keen observer, I have cultivated a unique perspective that enriches my approach to problem-solving and innovation in the world of technology.
+        </p>
+        <p>My experiences, both in the Marines and in the tranquility of nature, have taught me the value of discipline, adaptability, and trust in one's own decisions. I bring these qualities to every project I undertake, ensuring that my work is not only technically sound but also infused with creativity and mindfulness. I am grateful for every opportunity to connect with new people, explore diverse ideas, and contribute to meaningful projects that challenge both the body and the mind. Let's embark on this journey together, creating impactful solutions that resonate with our shared human experience.
+        </p>
+
+    <div class="skills-list center-column">
+        <h2>Skills</h2>
+
+        <div class="tags-container center">
+            <label>Skill</label>
+            <label>Skill</label>
+            <label>Skill</label>
+            <label>Skill</label>
+            <label>Skill</label>
+            <label>Skill</label>
+            <label>Skill</label>
+            <label>Skill</label>
+            <label>Skill</label>
+            <label>Skill</label>
+        </div>
+    </div>
+</section>
+{% endblock content %}
